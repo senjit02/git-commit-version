@@ -31,7 +31,7 @@ public class DemoController {
 	
 	@RequestMapping("/getEmployee")
 	public Employee getEmployee()
-	{
+	{ 
 		logger.debug("Inside getEmployee");
 		return new Employee(100,"Prasenjit","IT");
 	}
